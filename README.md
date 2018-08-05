@@ -9,8 +9,8 @@ Run the R script run_analysis.R that will download the zip file, combine the rel
 ### Data Sets Created
 
 The activitydata dataset has every record of data recorded from the study, with training and test data combined. The measurements included were all mean and standard deviation measurements. The key columns are:
-*Subject - The numeric identifier of the test subject (there were 30 people in the study)
-*ActivityDescription - the description of the activity the person was doing at the time of measurement (walking, standing etc)
+Subject - The numeric identifier of the test subject (there were 30 people in the study)
+ActivityDescription - the description of the activity the person was doing at the time of measurement (walking, standing etc)
 
 The SummarisedActivityData dataset summarises the average of the mean and standard deviation measurements by Subject and ActivityDescription.
 

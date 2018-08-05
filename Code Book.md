@@ -2,14 +2,14 @@
 This R code collects and summarises data from a movement study of 30 people using their smartphones. 6 activities (waling, standing etc) are identified and measurements such as acceleration and rotation were recorded.
 
 ## Files Used
-  *activity_labels.txt - a file that links the activity numeric identifier (1-6) with its description (ex walking, standing)
-  *features.txt - a file that provides the column names for the test and training data by describing the measurements
-  *subject_train - a file which lists the subject for each record in the training data
-  *subject_test - a file which lists the subject for each record in the test data
-  *X_train - a file with the measurements from each record in the training data
-  *X_test - a file with the measurements from each record in the test data
-  *y_train - a file with the activity numeric identifier for each record in the training data
-  *y_test - a file with the activity numeric identifier for each record in the test data
+  * activity_labels.txt - a file that links the activity numeric identifier (1-6) with its description (ex walking, standing)
+  * features.txt - a file that provides the column names for the test and training data by describing the measurements
+  * subject_train - a file which lists the subject for each record in the training data
+  * subject_test - a file which lists the subject for each record in the test data
+  * X_train - a file with the measurements from each record in the training data
+  * X_test - a file with the measurements from each record in the test data
+  * y_train - a file with the activity numeric identifier for each record in the training data
+  * y_test - a file with the activity numeric identifier for each record in the test data
   
 ## steps in the code
 

@@ -65,8 +65,16 @@ xydata <- cbind(labelledy, MeanStdData)
 
 activitydata <- cbind(submerge, xydata)
 
+#save the dataset as a csv
+
+write.csv(activitydata, "activitydata.csv")
+
 #create a table to average each variable for each activity for each subject
 
 SummarisedActivityData <- activitydata %>%
   group_by(Subject, ActivityDescription) %>%
   summarise_all(mean)
+
+#Save the summarised dataset as a csv
+
+write.csv(SummarisedActivityData, "SummarisedActivityData.csv")
